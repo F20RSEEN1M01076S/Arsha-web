@@ -1,0 +1,963 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Arsha Website</title>
+    <style>
+        /* navbar  */
+        .navbar {
+            background-color: #37517e;
+
+            /* background-color; Navbar background color */
+        }
+
+        .navbar-brand img {
+            max-height: 40px;
+            /* Set max height for the logo image */
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            font-weight: 500;
+            padding: 25px;
+            color: white;
+            /* Default text color */
+            transition: color 0.3s ease;
+            /* Smooth color transition */
+        }
+
+        .navbar-nav .nav-item:hover .nav-link,
+        .navbar-nav .nav-item.active .nav-link {
+            color: #47b2e4;
+            /* Text color on hover or when active */
+            cursor: pointer;
+
+        }
+
+
+
+        .btn-login {
+            padding: 10px 20px 10px 20px;
+            border: 2px solid #47b2e4;
+            /* Login button background color */
+            color: white;
+            /* Login button text color */
+            transition: background-color 0.3s ease, color 0.3s ease;
+            border-radius: 25px;
+            /* Smooth transition */
+            align-items: center;
+
+        }
+
+        .btn-login:hover {
+            background-color: #47b2e4;
+            /* Login button background color on hover */
+            color: white;
+            /* Login button text color on hover */
+            cursor: pointer;
+
+        }
+
+        .bg {
+            background-color: #37517e;
+            margin-top: 2.%;
+
+        }
+
+        .move {
+            background-color: rgb(232, 229, 229);
+            /* opacity: 0.3; */
+
+        }
+
+        .img1 {
+
+            filter: grayscale(100);
+        }
+
+        .img1:hover {
+
+            filter: grayscale(0);
+        }
+
+        .z {
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+
+        .btn1 {
+            padding: 10px 20px 10px 20px;
+            border: 2px solid #47b2e4;
+
+        }
+
+        .btn1:hover {
+            padding: 10px 20px 10px 20px;
+            border: 2px solid #47b2e4;
+            background-color: #47b2e4;
+            color: white;
+        }
+
+        .progress-bar {
+            color: #37517e;
+        }
+
+        .abc {
+            color: #37517e;
+
+        }
+
+        .abc:hover {
+            color: #47b2e4;
+        }
+
+        .ufc {
+            width: 23%;
+            height: 250px;
+            box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+            transition: 9px;
+        }
+
+        .ufc:hover {
+            transform: scale(1.1);
+        }
+
+        .kg {
+
+            background: linear-gradient(to right, rgba(0, 30, 76, 0.9) 0%, rgba(0, 30, 76, 0.9) 100%);
+            height: 350px;
+            color: white;
+            align-content: center;
+
+        }
+
+        .kf {
+
+            transition: 9px;
+        }
+
+        .kf:hover {
+            transform: scale(1.1);
+        }
+
+        .gf {
+            border-top: #47b2e4;
+        }
+
+        .dg {
+            color: #37517e;
+        }
+
+        .dg:hover {
+            color: #47b2e4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg z    ">
+        <div class="container ">
+
+            <h1 class="text-white w-50">ARSHA</h1>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-3 " id="navbarNav">
+                <ul class="navbar-nav mx-4  ">
+                    <li class="nav-item active  ">
+                        <a class="nav-link" href="arsha.html">Home</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link" href="sherri.html">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="">Services</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="">Protfolio</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/cccc.html">Team</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="sign up.html">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-login">Get&nbsp;&nbsp;Started</button>
+            </div>
+        </div>
+    </nav>
+    <section class="bg">
+
+        <div class="container " style="height: 400px;">
+            <div class="row ">
+                <div class="col-7">
+                    <h1 class="text-white fw-bold">Better Solutions For <br>Your Business</h1>
+                    <br>
+                    <h4 class="text-white ">We are team of talented designers making <br> websites with Bootstrap</h4>
+                    <button class="btn btn-login mt-5">Get Started</button>
+                </div>
+                <div class="col-5 "><img style="animation: 2s ease-in-out;" src="/assat/hero-img.png" width="100%">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="move">
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-2  img1"><img src="/assat/client-1.png" width="60%" alt=""></div>
+                <div class="col-2  img1"><img src="/assat/client-2.png" width="60%" alt=""></div>
+                <div class="col-2 img1"> <img src="/assat/client-3.png" width="60%" alt=""></div>
+                <div class="col-2 img1"> <img src="/assat/client-4.png" width="60%" alt=""></div>
+                <div class="col-2 img1"><img src="/assat/client-5.png" width="60%" alt=""></div>
+                <div class="col-2 img1"><img src="/assat/client-6.png" width="60%" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 mb-5">
+        <div class="container text-center " style="align-items: center;">
+            <h1>Ab<span class="text-decoration-underline">out u</span>s</h1>
+            <div class="row mt-5 ">
+
+                <div class="col-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <ul type=" square">
+                        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                        <li>Duis aute irure dolor in reprehenderit in voluptate velit
+                        </li>
+                        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <p>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <button class="btn1">learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light mt-5" style="height: 600px;">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-6 mt-5">
+
+                    <h3 class="mt-5 fs-2" style="color: #37517e;">
+                        Eum ipsam laborum deleniti <span class="fw-bold fs-1"> velit pariatur architecto aut
+                            nihil</span>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Non consectetur a erat nam at lectus urna duis?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
+                                    accordion body.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Feugiat scelerisque varius morbi enim nunc?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
+                                    accordion body. Let's imagine this being filled with some actual content.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-2">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Dolor sit amet consectetur adipiscing elit?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
+                                    accordion body. Nothing more exciting happening here in terms of content, but just
+                                    filling up the space to make it look, at least at first glance, a bit more
+                                    representative of how this would look in a real-world application.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mt-5 align-items-center"><img src="/Arsha Bootstrap Template Demo_files/hero-img.png"
+                        width="100%" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 mt-5">
+                    <img src="/Arsha Bootstrap Template Demo_files/skills.png" alt="" width="100%">
+                </div>
+                <div class="col-6 mt-5" data-aos="fade- left">
+                    <h1 class="fs-1" style="color: #37517e;">Voluptatem dignissimos provident quasi corporis voluptates
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+
+
+
+                    <div class="row mt-2" style="line-height: 4px; color: #37517e; ">
+                        <div class="col">
+                            <h6 style="line-height: 4px;"> Html </h6>
+                        </div>
+                        <div class="col text-end">
+                            <p style="line-height: 2px;">100%</p>
+                        </div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                        <div class="progress-bar" style="width: 100%"></div>
+                    </div>
+                    <div class="row mt-2" style="line-height: 2px; color: #37517e; ">
+                        <div class="col">
+                            <h6 style="line-height: 2px;">CSS</h6>
+                        </div>
+                        <div class="col text-end">
+                            <p style="line-height: 2px;">90%</p>
+                        </div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                    <div class="row mt-2" style="line-height: 2px; color: #37517e; ">
+                        <div class="col">
+                            <h6 style="line-height: 2px;">JavaScript</h6>
+                        </div>
+                        <div class="col text-end">
+                            <p style="line-height: 2px;">75%</p>
+                        </div>
+                    </div>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 10px;">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                    <div class="row mt-2" style="line-height: 2px; color: #37517e; ">
+                        <div class="col">
+                            <h6 style="line-height: 2px;">Photoshop</h6>
+                        </div>
+                        <div class="col text-end">
+                            <p style="line-height: 2px;">50%</p>
+                        </div>
+                    </div>
+                    <div class="progress " role="progressbar " aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 10px  ; ">
+                        <div class="progress-bar" style="width: 50% ;"></div>
+                    </div>
+                </div>
+
+            </div>
+                    
+        </div>
+        </div>
+
+        </div>
+        </div>
+
+        </div>
+    </section>
+    <section class="bg-light" style="height: 500px  ; ">
+        <div class="container  mt-5 " style="color: #37517e;">
+            <h1 class=" text-center">Ser<span class=" mt-5 text-decoration-underline  ">vic</span>es</h1>
+            <p class="mt-2  text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                fuga eum quidem.
+                Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="row mt-5 justify-content-arround  "
+                style="height: 200px; width: 100%; justify-content: space-around;">
+
+                <div class="ufc col-2 bg-white pt-5">
+                    <h3><i class="bi bi-browser-chrome text-info"></i></h1>
+                        <h3 class="abc mt-2">Lorem Ipsum</h2>
+                            <p class="mt-2">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                            </p>
+                </div>
+                <div class="ufc col-2 bg-white pt-5">
+                    <h3> <i class="bi bi-file-earmark-text-fill text-info"></i></h1>
+                        <h3 class="abc mt-2">Sed ut perspici</h1>
+                            <p class="mt-2">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                            </p>
+                </div>
+                <div class="ufc  col-2 bg-white pt-5">
+                    <h3> <i class="bi bi-speedometer2 text-info"></i></h1>
+                        <h3 class="abc mt-2">Magni Dolores</h1>
+                            <p class="mt-2">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                            </p>
+                </div>
+                <div class="ufc  col-2 bg-white pt-5">
+                    <h3><i class="bi bi-stack text-info"></i></h1>
+                        <h3 class="abc mt-2 ">Nemo Enim</h1>
+                            <p class="mt-2">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
+                            </p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <section class="kg" style="height: 350px;">
+        <div class="container mt-5 pt-5">
+            <div class="row mt-5 ">
+                <div class="col-9 mt-5">
+                    <h1>Call To Action</h1>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.</p>
+                </div>
+                <div class="col-3 mt-5"> <button class="btn btn-login mt-5">Call To Action </button></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5" style="color: #37517e;">
+            <h1 class=" text-center">POR<span class=" mt-5 text-decoration-underline  ">TFO</span>LIO</h1>
+            <p class="mt-2  text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                fuga eum quidem.
+                Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="row mt-5">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><button
+                                class="btn btn-login btn-info">ALL </button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><button class="btn btn-login btn-info ">APP</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><button class="btn btn-login btn-info ">CARD </button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"> <button
+                                class="btn btn-login btn-info ">WEB </button></a>
+                    </li>
+                </ul>
+
+
+                <div class="row mt-4">
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-12"><img src="/Arsha Bootstrap Template Demo_files/portfolio-1.jpg"
+                                    width="100%" alt=""> </div>
+                            <div class="col mt-4"> <img src="/Arsha Bootstrap Template Demo_files/portfolio-6.jpg"
+                                    width="100%" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="/Arsha Bootstrap Template Demo_files/portfolio-2.jpg" width="100%" alt="">
+                            </div>
+                            <div class="col-12 mt-4"> <img src="/Arsha Bootstrap Template Demo_files/portfolio-5.jpg"
+                                    width="100%" alt=""></div>
+                            <div class="col-12 mt-4"><img src="/Arsha Bootstrap Template Demo_files/portfolio-9.jpg"
+                                    width="100%" alt=""></div>
+
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row">
+                            <div class="col-12"><img src="/Arsha Bootstrap Template Demo_files/portfolio-3.jpg"
+                                    width="100%" alt=""></div>
+                            <div class="col-12 mt-4"><img src="/Arsha Bootstrap Template Demo_files/portfolio-4.jpg"
+                                    width="100%" alt=""></div>
+                            <div class="col-12 mt-4"><img src="/Arsha Bootstrap Template Demo_files/portfolio-7.jpg"
+                                    width="100%" alt=""></div>
+                            <div class="col-12 mt-4"><img src="/Arsha Bootstrap Template Demo_files/portfolio-8.jpg"
+                                    width="100%" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="bg-light mt-5 mb-5" style="height: 800px;">
+        <div class="container mt-5" style="color: #37517e;">
+            <h1 class=" text-center">T<span class=" mt-5 text-decoration-underline  ">EA</span>M</h1>
+            <p class="mt-2  text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                fuga eum quidem.
+                Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="row" style="justify-content: space-between;">
+                <div class="col-5 kf " style="width: 45%;">
+                    <div class="row bg-white mt-5" style="height:250px  ; align-items: center;">
+                        <div class="col-4"><img src="/Arsha Bootstrap Template Demo_files/team-1.jpg" width="100%"
+                                alt="" style="border-radius: 50%;"></div>
+                        <div class="col-8">
+                            <h3>Walter White</h3>
+                            <p>Chief Executive Officer <span>
+                                    <hr>
+                                </span>
+                                Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                            </p>
+                            <i class="bi bi-twitter btn btn-outline-primary  rounded-circle  fs-4"></i>
+                            <i class="bi bi-facebook btn btn-outline-primary rounded-circle  fs-4"></i>
+                            <i class="bi bi-instagram btn btn-outline-primary rounded-circle  fs-4"></i>
+                            <i class="bi bi-linkedin btn btn-outline-primary rounded-circle  fs-4"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-5 kf" style="width: 45%;">
+                    <div class="row bg-white mt-5" style="height:250px  ; align-items: center;">
+                        <div class="col-4"><img src="/Arsha Bootstrap Template Demo_files/team-2.jpg" width="100%"
+                                alt="" style="border-radius: 50%;"></div>
+                        <div class="col-8">
+                            <h3>Sarah Jhonson</h3>
+                            <p>Product Manager <span class="ba" style="width: 1%;">
+                                    <hr>
+                                </span>
+                                Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                            </p>
+                            <i class="bi bi-twitter btn btn-outline-primary  rounded-circle  fs-4"></i>
+                            <i class="bi bi-facebook btn btn-outline-primary rounded-circle  fs-4"></i>
+                            <i class="bi bi-instagram btn btn-outline-primary rounded-circle  fs-4"></i>
+                            <i class="bi bi-linkedin btn btn-outline-primary rounded-circle  fs-4"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-5 kf" style="width: 45%;">
+                    <div class="row bg-white mt-5" style="height:250px  ; align-items: center;">
+                        <div class="col-4"><img src="/Arsha Bootstrap Template Demo_files/team-3.jpg" width="100%"
+                                alt="" style="border-radius: 50%;"></div>
+                        <div class="col-8">
+                            <h3>
+                                William Anderson
+                            </h3>
+                            <p>CTO <span class="ba" style="width: 1%;">
+                                    <hr>
+                                </span>
+                                Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                            </p>
+                            <i class="bi bi-twitter btn btn-outline-primary  rounded-circle  fs-4"></i>
+                            <i class="bi bi-facebook btn btn-outline-primary rounded-circle  fs-4"></i>
+                            <i class="bi bi-instagram btn btn-outline-primary rounded-circle  fs-4"></i>
+                            <i class="bi bi-linkedin btn btn-outline-primary rounded-circle  fs-4"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-5 kf" style="width: 45%;">
+                    <div class="row bg-white mt-5" style="height:250px  ; align-items: center;">
+                        <div class="col-4"><img src="/Arsha Bootstrap Template Demo_files/team-4.jpg" width="100%"
+                                alt="" style="border-radius: 50%;"></div>
+                        <div class="col-8">
+                            <h3> Amanda Jepson</h3>
+
+                            <p> Accountant <span class="ba" style="width: 1%;">
+                                    <hr>
+                                </span>
+                                Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                            </p>
+                            <i class="bi bi-twitter btn btn-outline-primary  rounded-circle  fs-4"></i>
+                            <i class="bi bi-facebook btn btn-outline-primary rounded-circle  fs-4"></i>
+                            <i class="bi bi-instagram btn btn-outline-primary rounded-circle  fs-4"></i>
+                            <i class="bi bi-linkedin btn btn-outline-primary rounded-circle  fs-4"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="container mt-5" style="color: #37517e;">
+            <h1 class=" text-center">PR<span class=" mt-5 text-decoration-underline  ">ICI</span>NG</h1>
+            <p class="mt-2  text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                fuga eum quidem.
+                Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="row justify-content-evenly">
+                <div class="col-3 mt-5 " data-aos="zoom-in"
+                    style="border: 2px soli #b4b7bd; width: 30%;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <h3 class="mt-5">Free Plan</h3>
+                    <h1><sup>$</sup>0</h1>
+                    <p class="text-info mb-5">per month</p>
+                    <ul>
+                        <li class=" mt-4">Quam adipiscing vitae proin</li>
+                        <li class=" mt-4">Nec feugiat nisl pretium</li>
+                        <li class=" mt-4">Nulla at volutpat diam uteera</li>
+                        <li class=" mt-4">Pharetra massa massa ultricies</li>
+                        <li class=" mt-4">Massa ultricies mi quis hendrerit</li>
+                    </ul>
+                    <button class=" btn btn-login text-dark  mt-5 mb-5">Get Started</button>
+                </div>
+
+                <div class="col-3 mt-5 " data-aos="zoom-in"
+                    style="border: 2px soli #b4b7bd; width: 30%; border-top: 5px solid #47b2e4;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <h3 class="mt-5">Business Plan</h3>
+                    <h1><sup>$</sup>29</h1>
+                    <p class="text-info mb-5">per month</p>
+                    <ul>
+                        <li class=" mt-4">Quam adipiscing vitae proin</li>
+                        <li class=" mt-4">Nec feugiat nisl pretium</li>
+                        <li class=" mt-4">Nulla at volutpat diam uteera</li>
+                        <li class=" mt-4">Pharetra massa massa ultricies</li>
+                        <li class=" mt-4">Massa ultricies mi quis hendrerit</li>
+                    </ul>
+                    <button class=" btn btn-login text-dark mt-5 mb-5">Get Started</button>
+                </div>
+
+
+                <div class="col-3 mt-5 " data-aos="zoom-in"
+                    style="border: 2px soli #b4b7bd; width: 30%;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <h3 class="mt-5">Developer Plan</h3>
+                    <h1><sup>$</sup>49</h1>
+                    <p class="text-info mb-5">per month</p>
+                    <ul>
+                        <li class=" mt-4">Quam adipiscing vitae proin</li>
+                        <li class=" mt-4">Nec feugiat nisl pretium</li>
+                        <li class=" mt-4">Nulla at volutpat diam uteera</li>
+                        <li class=" mt-4">Pharetra massa massa ultricies</li>
+                        <li class=" mt-4">Massa ultricies mi quis hendrerit</li>
+                    </ul>
+                    <button class="btn btn-login text-dark mt-5 mb-5">Get Started</button>
+                </div>
+            </div>
+    </section>
+
+    <section class="bg-light" style="height: 500px;">
+        <div class="container  " style="color: #37517e;margin-top: 5%;">
+            <h1 class=" text-center mt-4 fw-bold">FREQUENTLY A<span
+                    class=" mt-5 text-decoration-underline  ">SKE</span>D QUESTIONS</h1>
+            <p class="mt-4 text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                fuga eum quidem.
+                Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="row">
+                <div class="col"></div>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item mt-5">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Non consectetur a erat nam at lectus urna duis?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, debitis
+                                esse illum veniam ullam nesciunt eius. Voluptate assumenda commodi eveniet consequatur
+                                est, veniam deleniti optio perferendis quidem explicabo, iusto fugiat? class. This is
+                                the first item's
+                                accordion body.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-5">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Feugiat scelerisque varius morbi enim nunc?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere magnam
+                                dicta vero officiis, magni qui ducimus fugit quae maxime? Dolorum architecto deserunt
+                                modi voluptas officia illum? Ut et quas officia. class. This is the second item's
+                                accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-5">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Dolor sit amet consectetur adipiscing elit?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class=" accordion-collapse collapse "
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                demonstrate the class. This is the third item's Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Unde impedit, voluptatibus eligendi assumenda natus nesciunt quam
+                                inventore, expedita illum laudantium commodi, ullam sequi aut provident reiciendis
+                                officia sunt hic.</div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container mt-5" style="color: #37517e;">
+            <h1 class=" text-center fw-bold">CO<span class=" mt-5 text-decoration-underline  ">NTA</span>CT</h1>
+            <p class="mt-2  text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                fuga eum quidem.
+                Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="row justify-content-evenly">
+                <div class="col-5"
+                    style=" border-top: 5px solid #47b2e4;border-bottom: 5px solid #47b2e4;    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ">
+                    <div class="row mt-5">
+                        <div class="col-2 "> <i class="bi btn btn-outline-primary rounded-circle fs-4 bi-geo-alt"></i>
+                        </div>
+                        <div class="col-10">
+                            <h3>Location:</h3>
+                            <p class="text-info">A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"> <i class="bi btn btn-outline-primary rounded-circle fs-4 bi-envelope"></i>
+                        </div>
+                        <div class="col-10">
+                            <h3>Gmail:</h3>
+                            <p class="text-info"> info@example.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"> <i class="bi btn btn-outline-primary rounded-circle fs-4 bi-phone"></i>
+                        </div>
+                        <div class="col-10">
+                            <h3>Call:</h3>
+                            <p class="text-info"> +1 5589 55488 55s</p>
+                        </div>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3497.4846900790576!2d70.80985237429933!3d28.76479867806419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393a20027bc511d1%3A0xb2abbd822aaa38cf!2sFiroza%2C%20Rahim%20Yar%20Khan%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1707996232373!5m2!1sen!2s"
+                        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div class="col-6 p-5"
+                    style="border-top: 5px solid #47b2e4;border-bottom: 5px solid #47b2e4;   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="text-center mb-4">Contact Us</h2>
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-4">
+                                        <label for="name">Your Name:</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                    </div>
+                                    <div class="form-group col-4">
+                                        <label for="email">Your Email:</label>
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="Enter your email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject:</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message:</label>
+                                    <textarea class="form-control" style="height: 200px;" id="message" rows="5"
+                                        placeholder="Enter your message"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary btn-login mt-5 m-5 ">Send
+                                        Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="bg-light">
+        <div class="container mt-5" style="color: #37517e;">
+            <h1 class=" text-center fw-bold">Join Our Newsletter</h1>
+            <p class="mt-2  text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid
+                fuga eum quidem.
+                Sit sint consectetur velit. Quisquam quos quisquam cupiditate.</p>
+            <div class="row justify-content-center">
+                <div class="col-md-6" style="border-top-left-radius: 25%;">
+                    <div class="input-group mb-5">
+                        <input type="email" class="form-control" placeholder="Enter your email"
+                            aria-label="Enter your email" aria-describedby="subscribeButton">
+                        <button class="btn btn-primary  " type="button" id="subscribeButton">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row mt-2 mb-3">
+                        <div class="col-3 mt-2">
+                            <div class="row" style="color: #37517e;">
+                                <h3>Arsha</h3>
+                                <p>A108 Adam Street <br>
+                                    New York, NY 535022 <br>
+                                    United States</p>
+                            </div>
+                            <div class="row">
+                                <p> <span class="fw-bold">Phone:</span> +1 5589 55488 55</p> <br>
+                                <p> <span class="fw-bold">Email:</span> info@example.com</p>
+                            </div>
+
+
+                        </div>
+                        <div class="col-3 mt-2">
+                            <div class="row ">
+                                <h5 class="fs-5" style="color: #37517e;">Useful Links</h5>
+                                <div class="row mt-2 dg"> <i class="bi bi-chevron-right"> Home</i> </div>
+                                <div class="row mt-2 dg">
+                                    <i class="bi bi-chevron-right"> About</i>
+                                </div>
+                                <div class="row mt-2 dg"><i class="bi bi-chevron-right"> Services</i> </div>
+                                <div class="row mt-2 dg">
+                                    <i class="bi bi-chevron-right">Term of service</i>
+                                </div>
+                                <div class="row mt-2 dg"> <i class="bi bi-chevron-right "> Privacy policy</i></div>
+
+
+                            </div>
+                        </div>
+                        <div class="col-3 mt-2">
+                            <div class="row ">
+                                <h5 class="fs-5" style="color: #37517e;">Our service</h5>
+                                <div class="row mt-2 dg"> <i class="bi bi-chevron-right"> Web Design </i> </div>
+                                <div class="row mt-2 dg">
+                                    <i class="bi bi-chevron-right"> web Development</i>
+                                </div>
+                                <div class="row mt-2 dg"><i class="bi bi-chevron-right">Product Manager</i> </div>
+                                <div class="row mt-2 dg">
+                                    <i class="bi bi-chevron-right">Term of service</i>
+                                </div>
+                                <div class="row mt-2 dg"> <i class="bi bi-chevron-right ">Markiting </i></div>
+                                <div class="row mt-2 dg"> <i class="bi bi-chevron-right ">Graphic Design </i></div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-3 mt-2">
+                            <div class="row ">
+                                <h5 class="fs-5" style="color: #37517e;">Our Social Networks</h5>
+                                <p class="mt-4">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita
+                                    valies</p>
+                                <div class="row">
+                                    <h1>
+                                        <i class="bi bi-twitter btn btn-outline-primary  rounded-circle  fs-4"></i>
+                                        <i class="bi bi-facebook btn btn-outline-primary rounded-circle  fs-4"></i>
+                                        <i class="bi bi-instagram btn btn-outline-primary rounded-circle  fs-4"></i>
+                                        <i class="bi bi-linkedin btn btn-outline-primary rounded-circle  fs-4"></i>
+
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="it " style="background-color: #37517e;">
+        <div class="container">
+            <div class="row align-items-center justify-content-between py-5">
+                <div class="col-5 text-white">
+                    <h5>© Copyright Arsha. All Rights Reserved</h5>
+                </div>
+                <div class="col-4 text-white"> Designed by : <span class="text-info"> M.Shahraiz Amjad </span> </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+</body>
+
+</html
